@@ -60,7 +60,7 @@ body {
 .promo {
   position: relative;
   height: 464px;
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(img/header-bg.jpg);
   margin: 0;
   padding: 0;
 }
