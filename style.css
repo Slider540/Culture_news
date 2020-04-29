@@ -16,6 +16,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page-name {
   display: flex;
   justify-content: center;
@@ -30,7 +34,7 @@ body {
   line-height: 47px;
   color: #000000;
   padding: 0;
-  margin: 60px 546px 46px 547px;
+  margin: 60px auto 46px;
 }
 
 .main-nav {
@@ -53,7 +57,6 @@ body {
 }
 
 .main-nav li a {
-  text-decoration: none;
   color: #000000;
 }
 
@@ -155,7 +158,6 @@ h2 {
 }
 
 .review-item a {
-  text-decoration: none;
   color: #000000;
 }
 
@@ -228,7 +230,6 @@ h2 {
 }
 
 .abonement-item a {
-  text-decoration: none;
   color: #000000;
 }
 
@@ -243,4 +244,122 @@ h2 {
   line-height: 150%;
   text-align: center;
   color: #000000;
+}
+
+.btn {
+  position: relative;
+  z-index: 2;
+  width: 170px;
+  height: 47px;
+  margin: 25px auto 0;
+  padding: 0;
+  background-color: #FF7931;
+  text-align: center;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a .btn {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+.btn img {
+  margin: 0 0 0 7px;
+}
+
+.short-line-in-main:nth-child(2) {
+  position: absolute;
+  width: 100px;
+  height: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+  top: 192px;
+  left: 670px;
+  z-index: 2;
+}
+
+.short-line-in-main:nth-child(3) {
+  position: absolute;
+  width: 100px;
+  height: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+  top: 320px;
+  left: 670px;
+  z-index: 2;
+}
+
+.page-footer {
+  position: relative;
+  z-index: 2;
+  width: 1440px;
+  height: 295px;
+  background-color: #575757;
+  margin: 0 auto 0;
+  padding: 0;
+}
+
+.footer-top {
+  padding-top: 26px;
+}
+
+.footer-top p {
+  margin: 0 auto 32px;
+  padding: 0;
+  font-size: 28px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.footer-top ul a {
+  color: #FFFFFF;
+}
+
+.footer-line {
+  width: 1170px;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: none;
+  margin: 0 auto 0;
+}
+
+.social-net-items {
+  margin: 42px auto 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-net-items li {
+  margin-right: 14px;
+}
+
+.social-net-items li:last-child {
+  margin-right: 0;
+}
+
+.social-net-item-background {
+  width: 47px;
+  height: 47px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.social-net-item a div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
