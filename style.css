@@ -62,6 +62,7 @@ a {
 
 .promo {
   position: relative;
+  width: 1440px;
   height: 464px;
   background-image: url(img/header-bg.jpg);
   margin: 0;
@@ -157,6 +158,11 @@ h2 {
   z-index: 2;
 }
 
+.review-item {
+  width: 370px;
+  height: 328px;
+}
+
 .review-item a {
   color: #000000;
 }
@@ -185,6 +191,7 @@ h2 {
 
 .abonements {
   margin: 51px auto 50px;
+  width: 1440px;
   height: 556px;
   background-color: #F7F7F7;
   overflow: hidden;
